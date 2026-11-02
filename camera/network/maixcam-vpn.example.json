@@ -1,0 +1,24 @@
+{
+  "log": {"level": "warn"},
+  "inbounds": [
+    {"type": "mixed", "tag": "app-in", "listen": "127.0.0.1", "listen_port": 7890}
+  ],
+  "outbounds": [
+    {"type": "selector", "tag": "PROXY", "outbounds": ["YOUR_NODE"], "default": "YOUR_NODE"},
+    {
+      "type": "trojan",
+      "tag": "YOUR_NODE",
+      "server": "YOUR_SERVER_HOST",
+      "server_port": 443,
+      "password": "YOUR_NODE_PASSWORD",
+      "tls": {"enabled": true, "server_name": "YOUR_TLS_SERVER_NAME"}
+    }
+  ],
+  "route": {"final": "PROXY"},
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "secret": "GENERATE_YOUR_OWN_LOCAL_API_SECRET"
+    }
+  }
+}

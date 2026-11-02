@@ -1,0 +1,10 @@
+{
+  "name": "imx-ai-relay",
+  "main": "../worker/index.js",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [{"name": "CODEX_LAB_RELAY", "class_name": "CodexLabRelay"}]
+  },
+  "migrations": [{"tag": "codex-lab-v1", "new_sqlite_classes": ["CodexLabRelay"]}]
+}

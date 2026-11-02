@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.pyc
+.env
+.dev.vars
+*.key
+*.pem
+*.sqlite3

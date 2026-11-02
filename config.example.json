@@ -1,0 +1,18 @@
+{
+  "relayUrl": "wss://YOUR_WORKER.YOUR_SUBDOMAIN.workers.dev/ws",
+  "deviceToken": "",
+  "bridgeToken": "",
+  "workerName": "imx-ai-relay",
+  "cloudflareAccountId": "",
+  "voiceModel": "gpt-6-luna",
+  "voiceEffort": "none",
+  "codexBinary": "",
+  "pythonBinary": "",
+  "scheduleFile": "data/schedules.md",
+  "boardDeviceId": "imx6ull_temp_led_01",
+  "cameraDeviceId": "maixcam_01",
+  "cameraUseProxy": false,
+  "cameraProxyHost": "127.0.0.1",
+  "cameraProxyPort": 7890,
+  "boardProxy": ""
+}

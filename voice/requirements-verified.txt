@@ -1,0 +1,5 @@
+numpy==2.5.4
+opencc-python-reimplemented==0.1.7
+scipy==1.18.1
+sherpa-onnx==2.0.1
+sherpa-onnx-core==2.0.1

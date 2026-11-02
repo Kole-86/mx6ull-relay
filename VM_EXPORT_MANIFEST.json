@@ -1,0 +1,78 @@
+{
+  "originalArchiveSha256": "34d12651c6f4fd45f1cf095e16f6082ed04796eb6e5f366fe36d6c49bd481634",
+  "unchangedFiles": 18,
+  "files": [
+    {
+      "path": "imx6ull/smart-monitor/.gitignore",
+      "sha256": "ff04f6f2593911f3cee9fae8f913c879fea4c60ea87dc1f82cf3a0415144a04b"
+    },
+    {
+      "path": "imx6ull/smart-monitor/camera.h",
+      "sha256": "720b8708cfc796644c4ec9f44af4381dabc583aa734e875c0db6832fbb8e6f69"
+    },
+    {
+      "path": "imx6ull/smart-monitor/dashboard.cpp",
+      "sha256": "5714892f7f6ebd3212cdcbfd708a6ee8ffe360d4c467fe312bca26487d3079fd"
+    },
+    {
+      "path": "imx6ull/smart-monitor/cloudlink.h",
+      "sha256": "4fde110d870ac3c5e9d138c60039571e32d23d9fd276bb86bf571d9ebc7208c4"
+    },
+    {
+      "path": "imx6ull/smart-monitor/build.sh",
+      "sha256": "0fe30a05b2890796e5e057067144a1a519d29a2622dab782e8813388aabdbc8e"
+    },
+    {
+      "path": "imx6ull/smart-monitor/README.md",
+      "sha256": "f5c4219ed49d6b010fcaf0620ba5dcecc22455da378d9964c03d19e27fc6163a"
+    },
+    {
+      "path": "imx6ull/smart-monitor/backend.cpp",
+      "sha256": "b692cb4a18a7287b92b98233d877645e3c579a10c5db1a951be0235b57a10ffc"
+    },
+    {
+      "path": "imx6ull/smart-monitor/mqttlink.cpp",
+      "sha256": "84713aa853385ceb328f769c46b9fbc8bf9414e10000769fb734340eb63ff47b"
+    },
+    {
+      "path": "imx6ull/smart-monitor/main.cpp",
+      "sha256": "cafe9fa81974236600b6a52fd4a14f765b0358538f6330f0e37ff78c92b4964b"
+    },
+    {
+      "path": "imx6ull/smart-monitor/launch.sh",
+      "sha256": "c85b61df6c48cd5a1650a95412a98fdf718759ac41943b4950c3a01a5e953e97"
+    },
+    {
+      "path": "imx6ull/smart-monitor/smart_monitor.pro",
+      "sha256": "8903dfc53bbc419972b706307cbfb9cc00c6ccb42d38d5b0e60d6af6fb592b8f"
+    },
+    {
+      "path": "imx6ull/smart-monitor/dashboard.h",
+      "sha256": "04cf50e8ddbc3db8f7b8d8df2d4b91c5209ea822e4607320f0eab2ed8e6a8a81"
+    },
+    {
+      "path": "imx6ull/smart-monitor/mqttlink.h",
+      "sha256": "2cf60f86c069b56b3524e664c8963c16807b809cfb8f339b0ba1da126f74bf1e"
+    },
+    {
+      "path": "imx6ull/smart-monitor/backend.h",
+      "sha256": "d967666623740de607aed6903ed86874f2011d43c058c62e0a1b7b1a32bc5126"
+    },
+    {
+      "path": "imx6ull/smart-monitor/camera.cpp",
+      "sha256": "80a52e241f568d85aed3a067af462d4807f2382a8017754930fe0f738cd31610"
+    },
+    {
+      "path": "imx6ull/smart-monitor/pc/monitor.py",
+      "sha256": "62afcd7ce2db1058821cc859b6180ae90a6fb07151e41a36e0f3bd9cc0a03e8a"
+    },
+    {
+      "path": "imx6ull/smart-monitor/pc/cloud_adapter.mjs",
+      "sha256": "9381f51ae44529a30f1efd8b757b4246e3f5754c0818690b3e183df822022df7"
+    },
+    {
+      "path": "imx6ull/smart-monitor/pc/start.sh",
+      "sha256": "b88416cb7937f1d5a76be99da1e936076ecd7e71c3477c479ff26070327378df"
+    }
+  ]
+}
